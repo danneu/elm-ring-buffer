@@ -9846,7 +9846,11 @@ var _user$project$Main$view = function (model) {
 											_1: {
 												ctor: '::',
 												_0: _elm_lang$html$Html_Attributes$autofocus(true),
-												_1: {ctor: '[]'}
+												_1: {
+													ctor: '::',
+													_0: _elm_lang$html$Html_Attributes$required(true),
+													_1: {ctor: '[]'}
+												}
 											}
 										}
 									}
